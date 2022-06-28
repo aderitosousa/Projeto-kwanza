@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.bitgest.kwanza.UI.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_navigation"
+            app:destination="@id/navigation"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true"/>
+        <action
+            android:id="@+id/action_splashFragment_to_financasFragment"
+            app:destination="@id/navigation5"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <navigation android:id="@+id/navigation"
+        app:startDestination="@id/loginFragment">
+        <fragment
+            android:id="@+id/loginFragment"
+            android:name="com.bitgest.kwanza.UI.autenticação.LoginFragment"
+            android:label="fragment_login"
+            tools:layout="@layout/fragment_login" >
+            <action
+                android:id="@+id/action_loginFragment_to_cadastroFragment"
+                app:destination="@id/cadastroFragment" />
+            <action
+                android:id="@+id/action_loginFragment_to_recusenhaFragment"
+                app:destination="@id/recusenhaFragment" />
+        </fragment>
+
+        <fragment
+            android:id="@+id/cadastroFragment"
+            android:name="com.bitgest.kwanza.UI.autenticação.CadastroFragment"
+            android:label="fragment_cadastro"
+            tools:layout="@layout/fragment_cadastro" />
+        <fragment
+            android:id="@+id/recusenhaFragment"
+            android:name="com.bitgest.kwanza.UI.autenticação.RecusenhaFragment"
+            android:label="fragment_recusenha"
+            tools:layout="@layout/fragment_recusenha" />
+        <action
+            android:id="@+id/action_global_financasFragment"
+            app:destination="@id/navigation5"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true"/>
+    </navigation>
+
+    <navigation android:id="@+id/navigation5"
+        app:startDestination="@id/financa">
+        <fragment
+            android:id="@+id/financa"
+            android:name="com.bitgest.kwanza.UI.financasFragment"
+            android:label="fragment_financas"
+            tools:layout="@layout/fragment_financas">
+            <action
+                android:id="@+id/action_financa_to_upsFragment"
+                app:destination="@id/upsFragment" />
+            <action
+                android:id="@+id/action_financa_to_homeMetaFragment"
+                app:destination="@id/homeMetaFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/planejamentoFragment"
+            android:name="com.bitgest.kwanza.UI.Planejamento.PlanejamentoFragment"
+            android:label="fragment_planejamento"
+            tools:layout="@layout/fragment_planejamento">
+            <action
+                android:id="@+id/action_planejamentoFragment_to_novoPlano"
+                app:destination="@id/novoPlano" />
+        </fragment>
+        <fragment
+            android:id="@+id/novoPlano"
+            android:name="com.bitgest.kwanza.UI.Planejamento.NovoPlano"
+            android:label="fragment_novo_plano"
+            tools:layout="@layout/fragment_novo_plano">
+            <argument
+                android:name="plano"
+                app:argType="com.bitgest.kwanza.UI.adapter.Plano"
+                app:nullable="true" />
+        </fragment>
+        <fragment
+            android:id="@+id/planoFragment"
+            android:name="com.bitgest.kwanza.UI.PlanoFragment"
+            android:label="fragment_plano"
+            tools:layout="@layout/fragment_plano">
+            <action
+                android:id="@+id/action_planoFragment_to_explicaFragment"
+                app:destination="@id/explicaFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/explicaFragment"
+            android:name="com.bitgest.kwanza.UI.ExplicaFragment"
+            android:label="fragment_explica"
+            tools:layout="@layout/fragment_explica" />
+        <fragment
+            android:id="@+id/homeMetaFragment"
+            android:name="com.bitgest.kwanza.UI.Meta.HomeMetaFragment"
+            android:label="fragment_home_meta"
+            tools:layout="@layout/fragment_home_meta">
+            <action
+                android:id="@+id/action_homeMetaFragment_to_novaMetaFragment"
+                app:destination="@id/novaMetaFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/novaMetaFragment"
+            android:name="com.bitgest.kwanza.UI.Meta.NovaMetaFragment"
+            android:label="fragment_nova_meta"
+            tools:layout="@layout/fragment_nova_meta">
+            <argument
+                android:name="meta"
+                app:argType="com.bitgest.kwanza.UI.adapter.Meta"
+                app:nullable="true" />
+        </fragment>
+        <fragment
+            android:id="@+id/solucoes"
+            android:name="com.bitgest.kwanza.UI.solucoesFragment"
+            android:label="fragment_solucoes"
+            app:popUpToInclusive="true"
+            tools:layout="@layout/fragment_solucoes">
+            <action
+                android:id="@+id/action_solucoes_to_upsFragment"
+                app:destination="@id/upsFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/upsFragment"
+            android:name="com.bitgest.kwanza.UI.UpsFragment"
+            android:label="fragment_ups"
+            tools:layout="@layout/fragment_ups" />
+        <action
+            android:id="@+id/action_global_navigation"
+            app:destination="@id/navigation"
+            app:popUpTo="@id/navigation5"
+            app:popUpToInclusive="true"/>
+    </navigation>
+</navigation>

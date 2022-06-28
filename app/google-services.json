@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "289432050739",
+    "project_id": "projeto-kwanza-3aab5",
+    "storage_bucket": "projeto-kwanza-3aab5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289432050739:android:648756bc544df4ee371746",
+        "android_client_info": {
+          "package_name": "com.bitgest.kwanza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289432050739-8akdmdheiqljldpr51q3je66261bsi8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGd485cpxw3q9Yjwn7c2Se-8rZYijPkI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289432050739-8akdmdheiqljldpr51q3je66261bsi8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

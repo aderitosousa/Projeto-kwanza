@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Kwanza</string>
+    <string name="finan_as">Finanças</string>
+    <string name="solu_es">Soluções</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- erros do firebase authentication -->
+    <string name="Global_erro">Acontenceu um erro inesperado, tente novamente mais tarde</string>
+    <string name="account_not_registered_register_fragment">Não há registro de usuário correspondente a este e-mail. O usuário pode ter sido excluído.</string>
+    <string name="invalid_email_register_fragment">Endereço de e-mail Inválido.</string>
+    <string name="invalid_password_register_fragment">Senha é inválida .</string>
+    <string name="email_in_use_register_fragmente"> O endereço de e-mail já está sendo usado por outra conta..</string>
+    <string name="strong_password_register_fragment">A senha fornecida é inválida. [ A senha deve ter pelo menos 6 caracteres ].</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contas_e_cart_es">Contas e cartões</string>
+    <string name="para_voc">Para Você</string>
+    <string name="pagamento_parcelar_em_at_12x">Pagamento parcelar em até 12x.</string>
+    <string name="recomenda_o">Recomendação</string>
+    <string name="s_na_bitgest">Só Na BitGest!</string>
+    <string name="aproveite">Aproveite!</string>
+    <string name="kwanza_bitgest">Kwanza + BitGest</string>
+    <string name="suas_compras_e_muito_dinheiro_de_volta">Suas compras e muito dinheiro de volta.</string>
+    <string name="para_economizar">para economizar.</string>
+    <string name="oportunidade">Oportunidade</string>
+    <string name="dicas">Dicas</string>
+    <string name="fa_a_planejamento_do_m_s_e_acompanhe_mais_as_tuas_finan_as">Faça Planejamento do mês e acompanhe mais as tuas finanças</string>
+    <string name="categorize_as_tuas_despesas_e_receitas_para_entender_melhor_as_tuas_finan_as">Categorize as tuas despesas e receitas para entender melhor as tuas finanças.</string>
+    <string name="open_banking">Open Banking?</string>
+    <string name="preparamos_para_voc_exclarecemos_o_open_banking_conhe_a_a_nova_tendencia_das_finan_as_no_sector_bancario">Preparamos para você Exclarecemos o Open Banking. conheça a nova tendencia das finanças no sector bancario</string>
+    <string name="planejamento_do_m_s">Planejamento do mês</string>
+    <string name="renda">Renda</string>
+    <string name="r_0_000">R$:0,000</string>
+    <string name="gastos">Gastos</string>
+    <string name="simular_investimento">Simular Investimento</string>
+    <string name="ajustes">ajustes</string>
+    <string name="confira_o_valor_do_emprestimo_voc_pode_obter_agora_mesmo">Confira o valor do emprestimo você pode obter agora mesmo:</string>
+    <string name="conferir_valor">Conferir valor</string>
+    <string name="banco">banco</string>
+    <string name="a_margem_">A margem de contrubuição é um indicador que resulta da operação entre receitas totais e custos variados</string>
+
+</resources>

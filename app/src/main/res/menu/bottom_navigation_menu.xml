@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/financa"
+        android:enabled="true"
+        android:icon="@drawable/financa"
+        android:title="@string/finan_as"/>
+    <item
+        android:id="@+id/solucoes"
+        android:enabled="true"
+        android:icon="@drawable/solucao"
+        android:title="@string/solu_es"/>
+
+    <item
+        android:id="@+id/planejamentoFragment"
+        android:enabled="true"
+        android:icon="@drawable/planejamento"
+        android:title="planejamento"/>
+    <item
+        android:id="@+id/planoFragment"
+        android:enabled="true"
+        android:icon="@drawable/inves"
+        android:title="Simulação"/>
+
+</menu>

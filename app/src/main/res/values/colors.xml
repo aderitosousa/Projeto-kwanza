@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Color_defaul">#03B6FC</color>
+    <color name="Color_defaul_leve">#66CCFB</color>
+    <color name="Color_defaul_pesada">#10AEF7</color>
+    <color name="vermelha_200_escuro">#ba6b6c</color>
+    <color name="vermelha">#360C09</color>
+    <color name="vermelha_400">#FC5653</color>
+    <color name="verde">#00994D</color>
+    <color name="roxo_escuro">#2F0736</color>
+    <color name="rosa_escuro">#993F5D</color>
+</resources>
